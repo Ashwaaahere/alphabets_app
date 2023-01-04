@@ -31,14 +31,9 @@ MDBoxLayout:
         valign: "center"
 '''
 
-
 class Tab(MDFloatLayout, MDTabsBase):
     '''Class implementing content for a tab.'''
     pass
-   
-    
-    
-
 
 class Alphabet(MDApp):
     icons = (list(md_icons.keys())[220:346:5])
@@ -63,7 +58,6 @@ class Alphabet(MDApp):
         :param instance_tab_label: <kivymd.uix.tab.MDTabsLabel object>;
         :param tab_text: text or name icon of tab;
         '''
-
         count_icon = instance_tab.icon  # get the tab icon
         listalpha=["alpha-a-circle-outline","alpha-b-circle-outline","alpha-c-circle-outline",
         "alpha-d-circle-outline","alpha-e-circle-outline","alpha-f-circle-outline","alpha-g-circle-outline","alpha-h-circle-outline",
